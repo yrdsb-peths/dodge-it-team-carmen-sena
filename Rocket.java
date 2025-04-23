@@ -14,12 +14,17 @@ public class Rocket extends Actor
      */
     public void act()
     {
-        // Add your action code here.
         move(-10);
-        
-        
+                
         if(getX() <= 0){
             resetRocket();
+        }
+        
+        if(isTouching(Seal.class)){
+            //Add a game over
+            Skull skull = new Skull();
+            getWorld().addObject(skull, 300, 200); 
+            getWorld().removeObject(this);
         }
     }
     
