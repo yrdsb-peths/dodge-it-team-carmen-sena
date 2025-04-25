@@ -8,6 +8,6 @@ public class MyWorld extends World {
         addObject(seal, 500, 100);
         
         Rocket rocket = new Rocket();
-        addObject(rocket, 50, 100);
+        addObject(rocket, 50, 100);   
     }
 }
