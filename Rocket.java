@@ -14,9 +14,9 @@ public class Rocket extends Actor
      */
     public void act()
     {
-        move(-10);
+        move(10);
                 
-        if(getX() <= 0){
+        if(getX() >= 590){
             resetRocket();
         }
         
@@ -31,10 +31,10 @@ public class Rocket extends Actor
     public void resetRocket(){
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0){
-            setLocation(600,100); 
+            setLocation(50,100);
 
         }else{
-            setLocation(600,300);
+            setLocation(50,300);
         }
     }
 }

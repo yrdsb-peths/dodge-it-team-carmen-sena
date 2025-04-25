@@ -10,9 +10,9 @@ public class Seal extends Actor
         }
         
         if(atTop){
-            setLocation(100, 100);
+            setLocation(500, 100);
         } else {
-            setLocation(100, 300); 
+            setLocation(500, 300); 
         }
     }
 }
