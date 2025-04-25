@@ -31,7 +31,7 @@ public class Rocket extends Actor
     public void resetRocket(){
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0){
-            setLocation(600,100);
+            setLocation(600,100); 
 
         }else{
             setLocation(600,300);
