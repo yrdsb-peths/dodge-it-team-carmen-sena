@@ -5,9 +5,9 @@ public class MyWorld extends World {
         super(600, 400, 1);
         
         Seal seal = new Seal(); 
-        addObject(seal, 100, 100);
+        addObject(seal, 500, 100);
         
         Rocket rocket = new Rocket();
-        addObject(rocket, 600, 100);
+        addObject(rocket, 50, 100);
     }
 }
