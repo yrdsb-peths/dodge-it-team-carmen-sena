@@ -9,5 +9,7 @@ public class MyWorld extends World {
         
         Rocket rocket = new Rocket();
         addObject(rocket, 50, 100);   
+        GreenfootImage image = new GreenfootImage("background.jpg");
+        setBackground(new GreenfootImage(image));
     }
 }
